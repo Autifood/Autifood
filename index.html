@@ -320,77 +320,77 @@ body{font-family:'Quicksand',sans-serif;background:var(--bg);color:var(--text);m
 // =============================================================
 // CATATAN UNTUK KAMU:
 // Letakkan semua gambar di folder "images/" di repository GitHub
-// Format nama: nama-makanan.jpg (huruf kecil, spasi → tanda -)
-// Contoh: images/nasi-merah.jpg, images/ikan-salmon.jpg
+// Format nama: nama-makanan.png (huruf kecil, spasi → tanda -)
+// Contoh: images/nasi-merah.png, images/ikan-salmon.png
 // =============================================================
 
 const FOODS = [
   // ============ ✅ BOLEH ============
-  {id:1,  name:'Apel',          img:'images/apel.jpg',           status:'allow', cat:'Buah',           cal:'52 kkal',           reason:''},
-  {id:2,  name:'Pepaya',        img:'images/pepaya.jpg',         status:'allow', cat:'Buah',           cal:'120 kkal',          reason:''},
-  {id:3,  name:'Mangga',        img:'images/mangga.jpg',         status:'allow', cat:'Buah',           cal:'60 kkal',           reason:''},
-  {id:4,  name:'Pisang',        img:'images/pisang.jpg',         status:'allow', cat:'Buah',           cal:'89 kkal',           reason:''},
-  {id:5,  name:'Jambu Kristal', img:'images/jambu-kristal.jpg',  status:'allow', cat:'Buah',           cal:'68 kkal',           reason:''},
-  {id:6,  name:'Anggur Hijau',  img:'images/anggur-hijau.jpg',   status:'allow', cat:'Buah',           cal:'69 kkal',           reason:''},
-  {id:7,  name:'Semangka',      img:'images/semangka.jpg',       status:'allow', cat:'Buah',           cal:'30 kkal',           reason:''},
-  {id:8,  name:'Brokoli',       img:'images/brokoli.jpg',        status:'allow', cat:'Sayuran',        cal:'34 kkal',           reason:''},
-  {id:9,  name:'Kembang Kol',   img:'images/kembang-kol.jpg',    status:'allow', cat:'Sayuran',        cal:'25 kkal',           reason:''},
-  {id:10, name:'Wortel',        img:'images/wortel.jpg',         status:'allow', cat:'Sayuran',        cal:'41 kkal',           reason:''},
-  {id:11, name:'Bayam',         img:'images/bayam.jpg',          status:'allow', cat:'Sayuran',        cal:'23 kkal',           reason:''},
-  {id:12, name:'Labu Siam',     img:'images/labu-siam.jpg',      status:'allow', cat:'Sayuran',        cal:'19 kkal',           reason:''},
-  {id:13, name:'Sawi',          img:'images/sawi.jpg',           status:'allow', cat:'Sayuran',        cal:'16 kkal',           reason:''},
-  {id:14, name:'Kangkung',      img:'images/kangkung.jpg',       status:'allow', cat:'Sayuran',        cal:'19 kkal',           reason:''},
-  {id:15, name:'Tomat',         img:'images/tomat.jpg',          status:'allow', cat:'Sayuran',        cal:'20 kkal',           reason:''},
-  {id:16, name:'Daging Sapi',   img:'images/daging-sapi.jpg',    status:'allow', cat:'Protein',        cal:'143 kkal',          reason:''},
-  {id:17, name:'Ayam Kampung',  img:'images/ayam-kampung.jpg',   status:'allow', cat:'Protein',        cal:'165 kkal',          reason:''},
-  {id:18, name:'Ikan Salmon',   img:'images/ikan-salmon.jpg',    status:'allow', cat:'Protein',        cal:'208 kkal',          reason:''},
-  {id:19, name:'Udang',         img:'images/udang.jpg',          status:'allow', cat:'Protein',        cal:'92 kkal',           reason:''},
-  {id:20, name:'Telur',         img:'images/telur.jpg',          status:'allow', cat:'Protein',        cal:'155 kkal',          reason:''},
-  {id:21, name:'Cumi',          img:'images/cumi.jpg',           status:'allow', cat:'Protein',        cal:'92 kkal',           reason:''},
-  {id:22, name:'Tahu',          img:'images/tahu.jpg',           status:'allow', cat:'Protein Nabati', cal:'76 kkal',           reason:''},
-  {id:23, name:'Kacang Hijau',  img:'images/kacang-hijau.jpg',   status:'allow', cat:'Protein Nabati', cal:'76 kkal',           reason:''},
-  {id:24, name:'Kacang Mede',   img:'images/kacang-mede.jpg',    status:'allow', cat:'Protein Nabati', cal:'553 kkal',          reason:''},
-  {id:25, name:'Kacang Tanah',  img:'images/kacang-tanah.jpg',   status:'allow', cat:'Protein Nabati', cal:'567 kkal',          reason:''},
-  {id:26, name:'Nasi Merah',    img:'images/nasi-merah.jpg',     status:'allow', cat:'Karbohidrat',    cal:'130 kkal',          reason:''},
-  {id:27, name:'Ubi Jalar',     img:'images/ubi-jalar.jpg',      status:'allow', cat:'Karbohidrat',    cal:'86 kkal',           reason:''},
-  {id:28, name:'Singkong',      img:'images/singkong.jpg',       status:'allow', cat:'Karbohidrat',    cal:'160 kkal',          reason:''},
-  {id:29, name:'Talas',         img:'images/talas.jpg',          status:'allow', cat:'Karbohidrat',    cal:'111 kkal',          reason:''},
-  {id:30, name:'Kentang',       img:'images/kentang.jpg',        status:'allow', cat:'Karbohidrat',    cal:'77 kkal',           reason:''},
-  {id:31, name:'Jagung',        img:'images/jagung.jpg',         status:'allow', cat:'Karbohidrat',    cal:'96 kkal',           reason:''},
+  {id:1,  name:'Apel',          img:'images/apel.png',           status:'allow', cat:'Buah',           cal:'52 kkal',           reason:''},
+  {id:2,  name:'Pepaya',        img:'images/pepaya.png',         status:'allow', cat:'Buah',           cal:'120 kkal',          reason:''},
+  {id:3,  name:'Mangga',        img:'images/mangga.png',         status:'allow', cat:'Buah',           cal:'60 kkal',           reason:''},
+  {id:4,  name:'Pisang',        img:'images/pisang.png',         status:'allow', cat:'Buah',           cal:'89 kkal',           reason:''},
+  {id:5,  name:'Jambu Kristal', img:'images/jambu-kristal.png',  status:'allow', cat:'Buah',           cal:'68 kkal',           reason:''},
+  {id:6,  name:'Anggur Hijau',  img:'images/anggur-hijau.png',   status:'allow', cat:'Buah',           cal:'69 kkal',           reason:''},
+  {id:7,  name:'Semangka',      img:'images/semangka.png',       status:'allow', cat:'Buah',           cal:'30 kkal',           reason:''},
+  {id:8,  name:'Brokoli',       img:'images/brokoli.png',        status:'allow', cat:'Sayuran',        cal:'34 kkal',           reason:''},
+  {id:9,  name:'Kembang Kol',   img:'images/kembang-kol.png',    status:'allow', cat:'Sayuran',        cal:'25 kkal',           reason:''},
+  {id:10, name:'Wortel',        img:'images/wortel.png',         status:'allow', cat:'Sayuran',        cal:'41 kkal',           reason:''},
+  {id:11, name:'Bayam',         img:'images/bayam.png',          status:'allow', cat:'Sayuran',        cal:'23 kkal',           reason:''},
+  {id:12, name:'Labu Siam',     img:'images/labu-siam.png',      status:'allow', cat:'Sayuran',        cal:'19 kkal',           reason:''},
+  {id:13, name:'Sawi',          img:'images/sawi.png',           status:'allow', cat:'Sayuran',        cal:'16 kkal',           reason:''},
+  {id:14, name:'Kangkung',      img:'images/kangkung.png',       status:'allow', cat:'Sayuran',        cal:'19 kkal',           reason:''},
+  {id:15, name:'Tomat',         img:'images/tomat.png',          status:'allow', cat:'Sayuran',        cal:'20 kkal',           reason:''},
+  {id:16, name:'Daging Sapi',   img:'images/daging-sapi.png',    status:'allow', cat:'Protein',        cal:'143 kkal',          reason:''},
+  {id:17, name:'Ayam Kampung',  img:'images/ayam-kampung.png',   status:'allow', cat:'Protein',        cal:'165 kkal',          reason:''},
+  {id:18, name:'Ikan Salmon',   img:'images/ikan-salmon.png',    status:'allow', cat:'Protein',        cal:'208 kkal',          reason:''},
+  {id:19, name:'Udang',         img:'images/udang.png',          status:'allow', cat:'Protein',        cal:'92 kkal',           reason:''},
+  {id:20, name:'Telur',         img:'images/telur.png',          status:'allow', cat:'Protein',        cal:'155 kkal',          reason:''},
+  {id:21, name:'Cumi',          img:'images/cumi.png',           status:'allow', cat:'Protein',        cal:'92 kkal',           reason:''},
+  {id:22, name:'Tahu',          img:'images/tahu.png',           status:'allow', cat:'Protein Nabati', cal:'76 kkal',           reason:''},
+  {id:23, name:'Kacang Hijau',  img:'images/kacang-hijau.png',   status:'allow', cat:'Protein Nabati', cal:'76 kkal',           reason:''},
+  {id:24, name:'Kacang Mede',   img:'images/kacang-mede.png',    status:'allow', cat:'Protein Nabati', cal:'553 kkal',          reason:''},
+  {id:25, name:'Kacang Tanah',  img:'images/kacang-tanah.png',   status:'allow', cat:'Protein Nabati', cal:'567 kkal',          reason:''},
+  {id:26, name:'Nasi Merah',    img:'images/nasi-merah.png',     status:'allow', cat:'Karbohidrat',    cal:'130 kkal',          reason:''},
+  {id:27, name:'Ubi Jalar',     img:'images/ubi-jalar.png',      status:'allow', cat:'Karbohidrat',    cal:'86 kkal',           reason:''},
+  {id:28, name:'Singkong',      img:'images/singkong.png',       status:'allow', cat:'Karbohidrat',    cal:'160 kkal',          reason:''},
+  {id:29, name:'Talas',         img:'images/talas.png',          status:'allow', cat:'Karbohidrat',    cal:'111 kkal',          reason:''},
+  {id:30, name:'Kentang',       img:'images/kentang.png',        status:'allow', cat:'Karbohidrat',    cal:'77 kkal',           reason:''},
+  {id:31, name:'Jagung',        img:'images/jagung.png',         status:'allow', cat:'Karbohidrat',    cal:'96 kkal',           reason:''},
   // ============ ❌ DILARANG ============
-  {id:32, name:'Gula',              img:'images/gula.jpg',              status:'deny', cat:'Karbohidrat',    cal:'1g = 4 kkal',        reason:'Memicu hiperaktivitas dan agresi. Dapat memicu pertumbuhan jamur di saluran pencernaan.'},
-  {id:33, name:'Jelly',             img:'images/jelly.jpg',             status:'deny', cat:'Makanan Olahan', cal:'30 kkal/cup',         reason:'Gula tinggi membuat anak sulit fokus, lebih aktif, dan emosi tidak stabil.'},
-  {id:34, name:'Tempe',             img:'images/tempe.jpg',             status:'deny', cat:'Protein Nabati', cal:'200 kkal/100g',       reason:'Makanan hasil fermentasi/ragi dapat memperparah saluran pencernaan anak autis.'},
-  {id:35, name:'Tape',              img:'images/tape.jpg',              status:'deny', cat:'Karbohidrat',    cal:'140-170 kkal/100g',   reason:'Mengandung ragi (fermentasi) yang dapat memperparah saluran pencernaan.'},
-  {id:36, name:'Mentega',           img:'images/mentega.jpg',           status:'deny', cat:'Lemak',          cal:'100 kkal/100g',       reason:'Mengandung kasein tinggi — dapat menyebabkan sulit berkomunikasi dan kontak sosial.'},
-  {id:37, name:'Keju',              img:'images/keju.jpg',              status:'deny', cat:'Dairy',          cal:'300 kkal/100g',       reason:'Kasein tinggi — dapat menyebabkan gejala sulit berkomunikasi dan kontak sosial.'},
-  {id:38, name:'Yogurt',            img:'images/yogurt.jpg',            status:'deny', cat:'Dairy',          cal:'100 kkal/cup',        reason:'Mengandung kasein dari susu yang dapat memperburuk gejala autis.'},
-  {id:39, name:'Tepung Terigu',     img:'images/tepung-terigu.jpg',     status:'deny', cat:'Karbohidrat',    cal:'340 kkal/100g',       reason:'Mengandung gluten yang sulit dicerna oleh tubuh anak autis.'},
-  {id:40, name:'Roti',              img:'images/roti.jpg',              status:'deny', cat:'Karbohidrat',    cal:'100 kkal',            reason:'Mengandung gluten (gandum/wheat) yang sulit dicerna anak autis.'},
-  {id:41, name:'Gandum',            img:'images/gandum.jpg',            status:'deny', cat:'Karbohidrat',    cal:'330 kkal/100g',       reason:'Sumber gluten utama — sulit dicerna atau diurai oleh tubuh anak autis.'},
-  {id:42, name:'Pasta',             img:'images/pasta.jpg',             status:'deny', cat:'Karbohidrat',    cal:'160 kkal/100g',       reason:'Mengandung gluten tinggi yang sulit dicerna oleh tubuh anak autis.'},
-  {id:43, name:'Mie Instan',        img:'images/mie-instan.jpg',        status:'deny', cat:'Makanan Olahan', cal:'350 kkal/90g',        reason:'Mengandung gluten tinggi dan MSG yang dapat memperburuk perilaku.'},
-  {id:44, name:'Bakso',             img:'images/bakso.jpg',             status:'deny', cat:'Protein Hewani', cal:'500 kkal/mangkuk',    reason:'Mengandung penyedap (MSG) — anak sensitif, sulit tenang, perilaku berubah.'},
-  {id:45, name:'Makanan Siap Saji', img:'images/makanan-siap-saji.jpg', status:'deny', cat:'Makanan Olahan', cal:'100-500 kkal',        reason:'Mengandung MSG dan bahan tambahan yang memperburuk fokus dan perilaku.'},
-  {id:46, name:'Acar',              img:'images/acar.jpg',              status:'deny', cat:'Makanan Olahan', cal:'50 kkal/100g',        reason:'Makanan asam + pengawet dapat mengganggu pencernaan sensitif anak autis.'},
-  {id:47, name:'Minuman Kemasan',   img:'images/minuman-kemasan.jpg',   status:'deny', cat:'Minuman',        cal:'70-180 kkal',         reason:'Pengawet dan gula berlebihan memperburuk fokus dan emosi anak autis.'},
-  {id:48, name:'Ikan Kaleng',       img:'images/ikan-kaleng.jpg',       status:'deny', cat:'Protein Hewani', cal:'100-250 kkal',        reason:'Mengandung pengawet yang dapat memengaruhi pencernaan dan perilaku.'},
-  {id:49, name:'Nugget',            img:'images/nugget.jpg',            status:'deny', cat:'Protein Olahan', cal:'300 kkal/100g',       reason:'Mengandung pengawet yang dapat memengaruhi pencernaan dan perilaku.'},
-  {id:50, name:'Sosis',             img:'images/sosis.jpg',             status:'deny', cat:'Protein Olahan', cal:'250-320 kkal/100g',   reason:'Pengawet tinggi dapat memengaruhi kenyamanan pencernaan dan perilaku.'},
-  {id:51, name:'Jajanan Kemasan',   img:'images/jajanan-kemasan.jpg',   status:'deny', cat:'Makanan Olahan', cal:'120-180 kkal',        reason:'Mengandung MSG — anak sensitif, sulit tenang, perilaku berubah-ubah.'},
-  {id:52, name:'Permen Warna-warni',img:'images/permen.jpg',            status:'deny', cat:'Manisan',        cal:'350 kkal/100g',       reason:'Pewarna buatan berkaitan dengan meningkatnya hiperaktif dan sulit konsentrasi.'},
-  {id:53, name:'Sirup',             img:'images/sirup.jpg',             status:'deny', cat:'Minuman Olahan', cal:'40 kkal/sdm',         reason:'Gula berlebihan membuat anak lebih aktif, sulit fokus, emosi tidak stabil.'},
-  {id:54, name:'Kue Ulang Tahun',   img:'images/kue-ulang-tahun.jpg',   status:'deny', cat:'Makanan',        cal:'250-400 kkal/potong', reason:'Gula berlebihan dan gluten (terigu) tidak sesuai diet GFCF anak autis.'},
-  {id:55, name:'Minuman Sachet',    img:'images/minuman-sachet.jpg',    status:'deny', cat:'Minuman',        cal:'50-180 kkal',         reason:'Pemanis dan perasa buatan memperburuk fokus dan emosi anak autis.'},
-  {id:56, name:'Strawberry',        img:'images/strawberry.jpg',        status:'deny', cat:'Buah',           cal:'35 kkal',             reason:'Berisiko residu pestisida tinggi — wajib dicuci sangat bersih sebelum dikonsumsi.'},
-  {id:57, name:'Cabe',              img:'images/cabe.jpg',              status:'deny', cat:'Sayuran',        cal:'40 kkal/100g',        reason:'Residu pestisida dan dapat mengiritasi pencernaan sensitif anak autis.'},
-  {id:58, name:'Anggur Merah',      img:'images/anggur-merah.jpg',      status:'deny', cat:'Buah',           cal:'65 kkal/100g',        reason:'Residu pestisida tinggi — harus dicuci sangat bersih sebelum dikonsumsi.'},
+  {id:32, name:'Gula',              img:'images/gula.png',              status:'deny', cat:'Karbohidrat',    cal:'1g = 4 kkal',        reason:'Memicu hiperaktivitas dan agresi. Dapat memicu pertumbuhan jamur di saluran pencernaan.'},
+  {id:33, name:'Jelly',             img:'images/jelly.png',             status:'deny', cat:'Makanan Olahan', cal:'30 kkal/cup',         reason:'Gula tinggi membuat anak sulit fokus, lebih aktif, dan emosi tidak stabil.'},
+  {id:34, name:'Tempe',             img:'images/tempe.png',             status:'deny', cat:'Protein Nabati', cal:'200 kkal/100g',       reason:'Makanan hasil fermentasi/ragi dapat memperparah saluran pencernaan anak autis.'},
+  {id:35, name:'Tape',              img:'images/tape.png',              status:'deny', cat:'Karbohidrat',    cal:'140-170 kkal/100g',   reason:'Mengandung ragi (fermentasi) yang dapat memperparah saluran pencernaan.'},
+  {id:36, name:'Mentega',           img:'images/mentega.png',           status:'deny', cat:'Lemak',          cal:'100 kkal/100g',       reason:'Mengandung kasein tinggi — dapat menyebabkan sulit berkomunikasi dan kontak sosial.'},
+  {id:37, name:'Keju',              img:'images/keju.png',              status:'deny', cat:'Dairy',          cal:'300 kkal/100g',       reason:'Kasein tinggi — dapat menyebabkan gejala sulit berkomunikasi dan kontak sosial.'},
+  {id:38, name:'Yogurt',            img:'images/yogurt.png',            status:'deny', cat:'Dairy',          cal:'100 kkal/cup',        reason:'Mengandung kasein dari susu yang dapat memperburuk gejala autis.'},
+  {id:39, name:'Tepung Terigu',     img:'images/tepung-terigu.png',     status:'deny', cat:'Karbohidrat',    cal:'340 kkal/100g',       reason:'Mengandung gluten yang sulit dicerna oleh tubuh anak autis.'},
+  {id:40, name:'Roti',              img:'images/roti.png',              status:'deny', cat:'Karbohidrat',    cal:'100 kkal',            reason:'Mengandung gluten (gandum/wheat) yang sulit dicerna anak autis.'},
+  {id:41, name:'Gandum',            img:'images/gandum.png',            status:'deny', cat:'Karbohidrat',    cal:'330 kkal/100g',       reason:'Sumber gluten utama — sulit dicerna atau diurai oleh tubuh anak autis.'},
+  {id:42, name:'Pasta',             img:'images/pasta.png',             status:'deny', cat:'Karbohidrat',    cal:'160 kkal/100g',       reason:'Mengandung gluten tinggi yang sulit dicerna oleh tubuh anak autis.'},
+  {id:43, name:'Mie Instan',        img:'images/mie-instan.png',        status:'deny', cat:'Makanan Olahan', cal:'350 kkal/90g',        reason:'Mengandung gluten tinggi dan MSG yang dapat memperburuk perilaku.'},
+  {id:44, name:'Bakso',             img:'images/bakso.png',             status:'deny', cat:'Protein Hewani', cal:'500 kkal/mangkuk',    reason:'Mengandung penyedap (MSG) — anak sensitif, sulit tenang, perilaku berubah.'},
+  {id:45, name:'Makanan Siap Saji', img:'images/makanan-siap-saji.png', status:'deny', cat:'Makanan Olahan', cal:'100-500 kkal',        reason:'Mengandung MSG dan bahan tambahan yang memperburuk fokus dan perilaku.'},
+  {id:46, name:'Acar',              img:'images/acar.png',              status:'deny', cat:'Makanan Olahan', cal:'50 kkal/100g',        reason:'Makanan asam + pengawet dapat mengganggu pencernaan sensitif anak autis.'},
+  {id:47, name:'Minuman Kemasan',   img:'images/minuman-kemasan.png',   status:'deny', cat:'Minuman',        cal:'70-180 kkal',         reason:'Pengawet dan gula berlebihan memperburuk fokus dan emosi anak autis.'},
+  {id:48, name:'Ikan Kaleng',       img:'images/ikan-kaleng.png',       status:'deny', cat:'Protein Hewani', cal:'100-250 kkal',        reason:'Mengandung pengawet yang dapat memengaruhi pencernaan dan perilaku.'},
+  {id:49, name:'Nugget',            img:'images/nugget.png',            status:'deny', cat:'Protein Olahan', cal:'300 kkal/100g',       reason:'Mengandung pengawet yang dapat memengaruhi pencernaan dan perilaku.'},
+  {id:50, name:'Sosis',             img:'images/sosis.png',             status:'deny', cat:'Protein Olahan', cal:'250-320 kkal/100g',   reason:'Pengawet tinggi dapat memengaruhi kenyamanan pencernaan dan perilaku.'},
+  {id:51, name:'Jajanan Kemasan',   img:'images/jajanan-kemasan.png',   status:'deny', cat:'Makanan Olahan', cal:'120-180 kkal',        reason:'Mengandung MSG — anak sensitif, sulit tenang, perilaku berubah-ubah.'},
+  {id:52, name:'Permen Warna-warni',img:'images/permen.png',            status:'deny', cat:'Manisan',        cal:'350 kkal/100g',       reason:'Pewarna buatan berkaitan dengan meningkatnya hiperaktif dan sulit konsentrasi.'},
+  {id:53, name:'Sirup',             img:'images/sirup.png',             status:'deny', cat:'Minuman Olahan', cal:'40 kkal/sdm',         reason:'Gula berlebihan membuat anak lebih aktif, sulit fokus, emosi tidak stabil.'},
+  {id:54, name:'Kue Ulang Tahun',   img:'images/kue-ulang-tahun.png',   status:'deny', cat:'Makanan',        cal:'250-400 kkal/potong', reason:'Gula berlebihan dan gluten (terigu) tidak sesuai diet GFCF anak autis.'},
+  {id:55, name:'Minuman Sachet',    img:'images/minuman-sachet.png',    status:'deny', cat:'Minuman',        cal:'50-180 kkal',         reason:'Pemanis dan perasa buatan memperburuk fokus dan emosi anak autis.'},
+  {id:56, name:'Strawberry',        img:'images/strawberry.png',        status:'deny', cat:'Buah',           cal:'35 kkal',             reason:'Berisiko residu pestisida tinggi — wajib dicuci sangat bersih sebelum dikonsumsi.'},
+  {id:57, name:'Cabe',              img:'images/cabe.png',              status:'deny', cat:'Sayuran',        cal:'40 kkal/100g',        reason:'Residu pestisida dan dapat mengiritasi pencernaan sensitif anak autis.'},
+  {id:58, name:'Anggur Merah',      img:'images/anggur-merah.png',      status:'deny', cat:'Buah',           cal:'65 kkal/100g',        reason:'Residu pestisida tinggi — harus dicuci sangat bersih sebelum dikonsumsi.'},
 ];
 
 const RECIPES = [
   {
     id:1, name:'Ikan Kembung Bakar Kunyit',
-    img:'images/resep/ikan-kembung-bakar-kunyit.jpg', emoji:'🐟',
+    img:'images/resep/ikan-kembung-bakar-kunyit.png', emoji:'🐟',
     time:'25 menit', serving:'2 porsi', rating:4.7, cal:'~200 kkal',
     ingredients:[
       '2 ekor ikan kembung segar, bersihkan',
@@ -411,7 +411,7 @@ const RECIPES = [
   },
   {
     id:2, name:'Nasi Kuning Gurih GFCF',
-    img:'images/resep/nasi-kuning-gurih.jpg', emoji:'🍚',
+    img:'images/resep/nasi-kuning-gurih.png', emoji:'🍚',
     time:'30 menit', serving:'2 porsi', rating:4.5, cal:'~180 kkal',
     ingredients:[
       '1 mangkuk beras (boleh beras organik)',
@@ -432,7 +432,7 @@ const RECIPES = [
   },
   {
     id:3, name:'Nugget Ayam Sayur Rumahan',
-    img:'images/resep/nugget-ayam-sayur.jpg', emoji:'🍗',
+    img:'images/resep/nugget-ayam-sayur.png', emoji:'🍗',
     time:'40 menit', serving:'4 porsi', rating:4.8, cal:'~250 kkal',
     ingredients:[
       '300g ayam giling',
@@ -456,7 +456,7 @@ const RECIPES = [
   },
   {
     id:4, name:'Sup Telur Puyuh Jagung Manis',
-    img:'images/resep/sup-telur-puyuh-jagung.jpg', emoji:'🥚',
+    img:'images/resep/sup-telur-puyuh-jagung.png', emoji:'🥚',
     time:'20 menit', serving:'3 porsi', rating:4.5, cal:'~120 kkal',
     ingredients:[
       '10 butir telur puyuh, rebus dan kupas',
@@ -479,7 +479,7 @@ const RECIPES = [
   },
   {
     id:5, name:'Steak Ayam Komplit',
-    img:'images/resep/steak-ayam-komplit.jpg', emoji:'🥩',
+    img:'images/resep/steak-ayam-komplit.png', emoji:'🥩',
     time:'25 menit', serving:'2 porsi', rating:4.6, cal:'~320 kkal',
     ingredients:[
       '2 paha atas ayam tanpa tulang',
@@ -500,7 +500,7 @@ const RECIPES = [
   },
   {
     id:6, name:'Bubur Pisang',
-    img:'images/resep/bubur-pisang.jpg', emoji:'🍌',
+    img:'images/resep/bubur-pisang.png', emoji:'🍌',
     time:'5 menit', serving:'1 porsi', rating:4.5, cal:'180 kkal',
     ingredients:[
       'Pisang matang 1 buah',
@@ -515,7 +515,7 @@ const RECIPES = [
   },
   {
     id:7, name:'Nasi Goreng GFCF',
-    img:'images/resep/nasi-goreng-gfcf.jpg', emoji:'🍳',
+    img:'images/resep/nasi-goreng-gfcf.png', emoji:'🍳',
     time:'10 menit', serving:'2 porsi', rating:4.7, cal:'280 kkal',
     ingredients:[
       'Nasi putih dingin 2 piring',
@@ -533,7 +533,7 @@ const RECIPES = [
   },
   {
     id:8, name:'Nasi Goreng Kunyit Telur',
-    img:'images/resep/nasi-goreng-kunyit-telur.jpg', emoji:'🌟',
+    img:'images/resep/nasi-goreng-kunyit-telur.png', emoji:'🌟',
     time:'10 menit', serving:'2 porsi', rating:4.6, cal:'260 kkal',
     ingredients:[
       'Nasi putih dingin 2 piring',
@@ -553,7 +553,7 @@ const RECIPES = [
   },
   {
     id:9, name:'Stik Wortel',
-    img:'images/resep/stik-wortel.jpg', emoji:'🥕',
+    img:'images/resep/stik-wortel.png', emoji:'🥕',
     time:'8 menit', serving:'2 porsi', rating:4.0, cal:'82 kkal',
     ingredients:[
       'Wortel 2 buah',
@@ -569,7 +569,7 @@ const RECIPES = [
   },
   {
     id:10, name:'Sup Sayuran',
-    img:'images/resep/sup-sayuran.jpg', emoji:'🍲',
+    img:'images/resep/sup-sayuran.png', emoji:'🍲',
     time:'10 menit', serving:'3 porsi', rating:4.3, cal:'95 kkal',
     ingredients:[
       'Brokoli 100g',
@@ -588,7 +588,7 @@ const RECIPES = [
   },
   {
     id:11, name:'Bola-bola Ubi Goreng Isi Kismis',
-    img:'images/resep/bola-bola-ubi.jpg', emoji:'🟠',
+    img:'images/resep/bola-bola-ubi.png', emoji:'🟠',
     time:'30 menit', serving:'4 porsi', rating:4.3, cal:'~180 kkal',
     ingredients:[
       '300g ubi merah, kukus',
@@ -608,7 +608,7 @@ const RECIPES = [
   },
   {
     id:12, name:'Puding Buah',
-    img:'images/resep/puding-buah.jpg', emoji:'🍮',
+    img:'images/resep/puding-buah.png', emoji:'🍮',
     time:'20 menit', serving:'6 porsi', rating:4.4, cal:'~90 kkal',
     ingredients:[
       '1 bungkus agar-agar putih',
@@ -628,7 +628,7 @@ const RECIPES = [
   },
   {
     id:13, name:'Donat Kentang GFCF',
-    img:'images/resep/donat-kentang.jpg', emoji:'🍩',
+    img:'images/resep/donat-kentang.png', emoji:'🍩',
     time:'30 menit', serving:'4 porsi', rating:4.2, cal:'~200 kkal',
     ingredients:[
       '250g kentang rebus, haluskan',
@@ -649,7 +649,7 @@ const RECIPES = [
   },
   {
     id:14, name:'Kue Lapis Labu Kuning',
-    img:'images/resep/kue-lapis-labu.jpg', emoji:'🟡',
+    img:'images/resep/kue-lapis-labu.png', emoji:'🟡',
     time:'35 menit', serving:'4 porsi', rating:4.3, cal:'~150 kkal',
     ingredients:[
       '250g labu kuning, kukus',
@@ -670,7 +670,7 @@ const RECIPES = [
   },
   {
     id:15, name:'Kentang Kukus Sederhana',
-    img:'images/resep/kentang-kukus.jpg', emoji:'🥔',
+    img:'images/resep/kentang-kukus.png', emoji:'🥔',
     time:'10 menit', serving:'2 porsi', rating:4.2, cal:'154 kkal',
     ingredients:[
       'Kentang 2 buah sedang',
@@ -685,7 +685,7 @@ const RECIPES = [
   },
   {
     id:16, name:'Ayam Panggang Kentang',
-    img:'images/resep/ayam-panggang-kentang.jpg', emoji:'🍗',
+    img:'images/resep/ayam-panggang-kentang.png', emoji:'🍗',
     time:'30 menit', serving:'2 porsi', rating:4.8, cal:'~350 kkal',
     ingredients:[
       '2 paha ayam atau fillet dada ayam',
